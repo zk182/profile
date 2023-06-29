@@ -7,7 +7,7 @@ export default function Experience() {
 
   return (
     <section>
-      <h2>Work</h2>
+      <h3>Work</h3>
       {works}
     </section>
   );

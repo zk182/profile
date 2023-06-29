@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './style/App.css';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
@@ -6,14 +5,13 @@ import Experience from './components/Experience';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Site under construction!</p>
-      </header>
+      <head></head>
       <body>
         <Experience />
       </body>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
