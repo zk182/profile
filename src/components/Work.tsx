@@ -1,13 +1,21 @@
 import Avatar from './Avatar';
 
-export default function Work(job: any) {
-  console.log(job);
+export default function Work({
+  title,
+  description,
+  years,
+}: {
+  title: string;
+  description: string;
+  years: string;
+}) {
+  console.log(title);
   return (
     <>
       <Avatar />
-      <p> Title </p>
-      <p> Description </p>
-      <p> Years </p>
+      <p> {title} </p>
+      <p> {description} </p>
+      <p> {years} </p>
     </>
   );
 }
