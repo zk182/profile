@@ -1,12 +1,14 @@
 import './style/App.css';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
+import Theme from './components/Theme';
 
 function App() {
   return (
     <div className="App">
-      <head></head>
+      <head />
       <body>
+        <Theme />
         <Experience />
       </body>
       <footer>
