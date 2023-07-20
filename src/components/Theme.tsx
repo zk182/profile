@@ -40,7 +40,6 @@ function Theme() {
     () => ({
       toggleColorMode: () => {
         setMode((prevMode) => {
-          console.log('hiola', prevMode);
           return prevMode === 'light' ? 'dark' : 'light';
         });
       },

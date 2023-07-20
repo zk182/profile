@@ -1,6 +1,6 @@
 {
-  "homepage": "https://zk182.github.io/website",
-  "name": "website",
+  "homepage": "https://zk182.github.io/profile",
+  "name": "profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

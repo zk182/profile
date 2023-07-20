@@ -2,6 +2,7 @@ import './style/App.css';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Theme from './components/Theme';
+import Summary from './components/Summary';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <head />
       <body>
         <Theme />
+        <Summary />
         <Experience />
       </body>
       <footer>

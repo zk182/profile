@@ -6,7 +6,7 @@ export default function Experience() {
   const works = values.map((job) => <Work key={job.index} {...job} />);
 
   return (
-    <section>
+    <section className="Experience">
       <h3>Work</h3>
       {works}
     </section>
