@@ -3,15 +3,18 @@ import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Theme from './components/Theme';
 import Summary from './components/Summary';
+import { Container } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
       <head />
       <body>
-        <Theme />
-        <Summary />
-        <Experience />
+        <Container maxWidth="lg">
+          <Theme />
+          <Summary />
+          <Experience />
+        </Container>
       </body>
       <footer>
         <Footer />
