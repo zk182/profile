@@ -8,10 +8,11 @@ import { Container } from '@mui/material';
 function App() {
   return (
     <div className="App">
-      <head />
+      <head>
+        <Theme />
+      </head>
       <body>
         <Container maxWidth="lg">
-          <Theme />
           <Summary />
           <Experience />
         </Container>
