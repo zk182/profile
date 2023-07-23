@@ -1,3 +1,6 @@
+import GithubLogo from '../assets/github-mark.png';
+import LinkdnLogo from '../assets/LinkedIn_logo_initials.png';
+
 function Summary() {
   return (
     <>
@@ -8,10 +11,22 @@ function Summary() {
       </p>
       <p>Thank you for visiting me!</p>
       <div>
-        <a href="www.linkdn.com">
-          {' '}
-          <img alt="" src="../../public/github-mark-white.svg"></img>
-        </a>
+        <img
+          style={{ borderRadius: 20 }}
+          className="avatar"
+          src={GithubLogo}
+          alt="Github"
+          width={30}
+          height={30}
+        />
+        <img
+          style={{ borderRadius: 20 }}
+          className="avatar"
+          src={LinkdnLogo}
+          alt="Linkdn"
+          width={30}
+          height={30}
+        />
       </div>
     </>
   );
