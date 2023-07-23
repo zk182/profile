@@ -7,6 +7,12 @@ function Summary() {
         backend. I also love music (especially guitars) and sports.
       </p>
       <p>Thank you for visiting me!</p>
+      <div>
+        <a href="www.linkdn.com">
+          {' '}
+          <img alt="" src="../../public/github-mark-white.svg"></img>
+        </a>
+      </div>
     </>
   );
 }
